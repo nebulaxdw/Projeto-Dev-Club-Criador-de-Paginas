@@ -88,7 +88,6 @@ async function gerarCodigo(){
     
     let dados = await resposta.json()
     let resultado = dados.choices[0].message.content
-    console.log(resultado)
 
     let espacoCodigo = document.querySelector(".bloco-codigo")
     let espacoSite = document.querySelector(".bloco-site")
